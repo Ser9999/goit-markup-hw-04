@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сеудія</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>index.html</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -18,8 +19,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/stales.css" />
-    <link rel="stylesheet" href="./css/nomalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--header  -->
@@ -75,30 +75,14 @@
       <section class="about section">
         <div class="container">
           <h2 class="about-title visually-hidden">Организация работы</h2>
-          <ul class="icon-list">
-            <li class="about-item-icon">
-              <svg class="icon-signal" width="70" height="70">
-                <use href="./images/icons.svg#icon-signal"></use>
-              </svg>
-            </li>
-            <li class="about-item-icon">
-              <svg class="icon-watch" width="70" height="70">
-                <use href="./images/icons.svg#icon-watch"></use>
-              </svg>
-            </li>
-            <li class="about-item-icon">
-              <svg class="icon-tv" width="70" height="70">
-                <use href="./images/icons.svg#icon-tv"></use>
-              </svg>
-            </li>
-            <li class="about-item-icon">
-              <svg class="icon-astronaut" width="70" height="70">
-                <use href="./images/icons.svg#icon-astronaut"></use>
-              </svg>
-            </li>
-          </ul>
+
           <ul class="about-list">
             <li class="about-item">
+              <div class="icon-box">
+                <svg class="icon-signal" width="70" height="70">
+                  <use href="./images/icons.svg#icon-signal"></use>
+                </svg>
+              </div>
               <h3 class="about-title">Внимание к деталям</h3>
               <p class="about-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -106,6 +90,11 @@
               </p>
             </li>
             <li class="about-item">
+              <div class="icon-box">
+                <svg class="icon-watch" width="70" height="70">
+                  <use href="./images/icons.svg#icon-watch"></use>
+                </svg>
+              </div>
               <h3 class="about-title">Пунктуальность</h3>
               <p class="about-text">
                 Задача организации, в особенности же рамки и место обучения
@@ -113,6 +102,11 @@
               </p>
             </li>
             <li class="about-item">
+              <div class="icon-box">
+                <svg class="icon-tv" width="70" height="70">
+                  <use href="./images/icons.svg#icon-tv"></use>
+                </svg>
+              </div>
               <h3 class="about-title">Планирование</h3>
               <p class="about-text">
                 Равным образом консультация с широким активом в значительной
@@ -120,6 +114,11 @@
               </p>
             </li>
             <li class="about-item">
+              <div class="icon-box">
+                <svg class="icon-astronaut" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
               <h3 class="about-title">Современные технологии</h3>
               <p class="about-text">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -381,12 +380,12 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container">
-        <a href="" class="logo-title link"
-          >Web<span class="footer-studio">Studio</span></a
-        >
-        <div class="footer-box">
+      <div class="container footer-box">
         <div class="address">
+          <a href="" class="logo-title link"
+            >Web<span class="footer-studio">Studio</span></a
+          >
+
           <address class="footer-address">
             <ul>
               <li class="footer-contacts">
@@ -438,7 +437,6 @@
               ></a>
             </li>
           </ul>
-        </div>
         </div>
       </div>
     </footer>
